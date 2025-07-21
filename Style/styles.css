@@ -1,0 +1,68 @@
+/* font section */
+
+ .outfit-font {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* sheared style */
+.font-1{
+    color: rgba(58, 58, 58, 1);
+}
+.btn-primary{
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px ;
+    background-color:rgba(224, 44, 109, 1);
+    color:white ;
+}
+.btn-primary:hover{
+   background-color: blueviolet;
+}
+/* nav-bar section */
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px ;
+    align-items: center;
+    margin:0 90px;
+
+}
+.navbar a{
+   text-decoration: none;
+   margin-left: 30px;
+   font-size: 20px;
+   color:#3A3A3A ;
+}
+ /* bannar section */
+ .bannar-1{
+    display: flex;
+    justify-content: center
+ }
+ .bannar-title{
+    max-width: 580px;
+    height: 500px;
+    margin: 145px 110px 155px;
+ }
+ #bannar-h2{
+    font-size: 52px;
+    font-weight: bold;
+ }
+ #bannar-p{
+    font-weight: 600;
+ }
+ .bannar-img{
+    margin: 90px 150px;
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-size: 470px ;
+ }
+/* comapany section */
+.company-name{
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   justify-items: center;
+   margin:0 200px;
+}
